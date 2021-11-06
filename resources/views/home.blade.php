@@ -122,7 +122,7 @@
 
    <div class="w-auto h-screen mt-10 pt-8 flex flex-col items-center " id="partners">
      <h1 class="text-5xl absolute font-bold mt-32 p-3 z-0 uppercase  border-2  border-r-0 border-l-0 bg-white bg-opacity-50 border-red-300 text-red-600" style="letter-spacing: 10px;" >Our Partners</h1>
-     <div class="flex justify-around">
+     <div class=" flex  justify-around " id="partner">
      <div  style="background-image: url('{{ asset('img/pill2.svg')}}');   background-repeat:no-repeat; background-size:fill; background-position:center " class=" w-1/6 mx-2 h-screen flex justify-center items-center" >
      <img class="w-10/12" src="{{asset('img/partner1.png')}}" alt="" >
       </div>
@@ -192,7 +192,7 @@
     Nondestructive testing (NDT) is any of a wide group of analysis techniques used in science and technology industry to evaluate the properties of a material
     </p>
 
-    <button
+    <a href="/CC"
       class="
         bg-red-500
         text-white
@@ -213,10 +213,10 @@
         transition-all
         duration-150
       "
-      type="button"
+     
     >
       view courses
-    </button>
+</a>
   </div>
 </div>
 <!-- Card -->
@@ -233,160 +233,35 @@
             </div>
           </div>
 
-          <div class="mt-10 sm:mt-0 bg">
+         
 
-            <div class="md:grid md:grid-cols-3 md:gap-6">
-              <div class="md:col-span-1 ">
-                <div class="  px-4 sm:px-0 flex flex-col items-center justify-center border-2 h-full rounded-xl bg-gray-200  ">
-                <img class="h-auto w-1/2 opacity-60 border-2 border-black p-1 rounded-full " src="{{asset('img/class.png')}}" alt="">
+            <div class="flex justify-around items-center ">
+              
+                <div class=" py-16  shadow-md px-16 sm:px-0 flex w-1/3 flex-col items-center justify-center border-2 h-full rounded-xl bg-gray-200  ">
+                <img class="h-auto  w-1/3 opacity-60 border-2 border-black p-1 rounded-full " src="{{asset('img/class.png')}}" alt="">
                   <h3 class="text-2xl font-medium leading-6 p-4 text-black">Personal Information</h3>
-                  <p class="mt-1 text-lg px-3 text-center text-black">
+                  <p class="mt-1 text-lg px-6 text-center text-black">
                     Use a permanent address where you can receive mail.
                   </p>
+                  <a href="http://simplybooking.com/" class=" bg-red-500 rounded-md text-white px-6 py-2 my-6">register now!</a>
                 </div>
-              </div>
-              <div class="mt-5 md:mt-0 md:col-span-2">
-                <form action="#" method="POST">
-                  <div class="shadow overflow-hidden sm:rounded-md">
-                    <div class="px-4 py-5 bg-gray-200 sm:p-6">
-                      <div class="grid grid-cols-6 gap-6">
-                        <div class="col-span-6 sm:col-span-3">
-                          <label for="first-name" class="block text-sm font-medium text-gray-700">First name</label>
-                          <input type="text" name="first-name" id="first-name" autocomplete="given-name" class="mt-1 focus:ring-red-500 focus:border-red-500 p-2 block w-full shadow-sm sm:text-sm border-gray-300 rounded-md">
-                        </div>
-
-                        <div class="col-span-6 sm:col-span-3">
-                          <label for="last-name" class="block text-sm font-medium text-gray-700">Last name</label>
-                          <input type="text" name="last-name" id="last-name" autocomplete="family-name" class="mt-1 focus:ring-red-500 focus:border-red-500 p-2 block w-full shadow-sm sm:text-sm border-gray-300 rounded-md">
-                        </div>
-
-                        <div class="col-span-6 sm:col-span-4">
-                          <label for="email-address" class="block text-sm font-medium text-gray-700">Email address</label>
-                          <input type="text" name="email-address" id="email-address" autocomplete="email" class="mt-1 focus:ring-red-500 focus:border-red-500 p-2 block w-full shadow-sm sm:text-sm border-gray-300 rounded-md">
-                        </div>
-
-                        <div class="col-span-6 sm:col-span-3">
-                          <label for="country" class="block text-sm font-medium text-gray-700">Country</label>
-                          <select id="country" name="country" autocomplete="country-name" class="mt-1 block w-full py-2 px-3 border border-gray-300 bg-white rounded-md shadow-sm focus:outline-none focus:ring-red-500 focus:border-red-500 sm:text-sm">
-                            <option>United States</option>
-                            <option>Canada</option>
-                            <option>Mexico</option>
-                          </select>
-                        </div>
-
-                        <div class="col-span-6">
-                          <label for="street-address" class="block text-sm font-medium text-gray-700">Street address</label>
-                          <input type="text" name="street-address" id="street-address" autocomplete="street-address" class="mt-1 focus:ring-red-500 focus:border-red-500 p-2 block w-full shadow-sm sm:text-sm border-gray-300 rounded-md">
-                        </div>
-
-                        <div class="col-span-6 sm:col-span-6 lg:col-span-2">
-                          <label for="city" class="block text-sm font-medium text-gray-700">City</label>
-                          <input type="text" name="city" id="city" autocomplete="address-level2" class="mt-1 focus:ring-red-500 focus:border-red-500 block w-full shadow-sm sm:text-sm p-2 border-gray-300 rounded-md">
-                        </div>
-
-                        <div class="col-span-6 sm:col-span-3 lg:col-span-2">
-                          <label for="region" class="block text-sm font-medium text-gray-700">State / Province</label>
-                          <input type="text" name="region" id="region" autocomplete="address-level1" class="mt-1 focus:ring-red-500 focus:border-red-500 p-2 block w-full shadow-sm sm:text-sm border-gray-300 rounded-md">
-                        </div>
-
-                        <div class="col-span-6 sm:col-span-3 lg:col-span-2">
-                          <label for="postal-code" class="block text-sm font-medium text-gray-700">ZIP / Postal code</label>
-                          <input type="text" name="postal-code" id="postal-code" autocomplete="postal-code" class="mt-1 focus:ring-red-500 focus:border-red-500 p-2 block w-full shadow-sm sm:text-sm border-gray-300 rounded-md">
-                        </div>
-                      </div>
-                    </div>
-                    <div class="px-4 py-3 bg-gray-300 text-right sm:px-6">
-                      <button type="submit" class="inline-flex justify-center py-2 px-4 border border-transparent shadow-sm text-sm font-medium rounded-md text-white bg-red-600 hover:bg-red-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-red-500">
-                        Save
-                      </button>
-                    </div>
-                  </div>
-                </form>
-              </div>
-            </div>
-
-            <div class="hidden sm:block" aria-hidden="true">
-            <div class="py-5">
-              <div class="border-t border-gray-200"></div>
-            </div>
-          </div>
-
-          <div class="mt-10 sm:mt-0 bg">
-            <div class="md:grid md:grid-cols-3 md:gap-6">
-              <div class="md:col-span-1 ">
-                <div class="  px-4 sm:px-0 flex flex-col items-center justify-center border-2 h-full rounded-xl bg-gray-200  ">
-                <img class="h-auto w-1/2 opacity-60 border-2 border-black p-1 rounded-full " src="{{asset('img/que.png')}}" alt="">
+                <div class="py-16 shadow-md px-16 sm:px-0 flex w-1/3 flex-col items-center justify-center border-2 h-full rounded-xl bg-gray-200  ">
+                  <img class="h-auto w-1/3 opacity-60 border-2 border-black p-1 rounded-full " src="{{asset('img/que.png')}}" alt="">
                   <h3 class="text-2xl font-medium leading-6 p-4 text-black">Personal Information</h3>
-                  <p class="mt-1 text-lg px-3 text-center text-black">
+                  <p class="mt-1 text-lg px-6 text-center text-black">
                     Use a permanent address where you can receive mail.
                   </p>
+                  <a href="https://www.icorr.org/correx/" class=" bg-red-500 rounded-md text-white px-6 py-2 my-6">connect with us</a>
                 </div>
-              </div>
-              <div class="mt-5 md:mt-0 md:col-span-2">
-                <form action="#" method="POST">
-                  <div class="shadow overflow-hidden sm:rounded-md">
-                    <div class="px-4 py-5 bg-gray-200 sm:p-6">
-                      <div class="grid grid-cols-6 gap-6">
-                        <div class="col-span-6 sm:col-span-3">
-                          <label for="first-name" class="block text-sm font-medium text-gray-700">First name</label>
-                          <input type="text" name="first-name" id="first-name" autocomplete="given-name" class="mt-1 focus:ring-red-500 focus:border-red-500 p-2 block w-full shadow-sm sm:text-sm border-gray-300 rounded-md">
-                        </div>
-
-                        <div class="col-span-6 sm:col-span-3">
-                          <label for="last-name" class="block text-sm font-medium text-gray-700">Last name</label>
-                          <input type="text" name="last-name" id="last-name" autocomplete="family-name" class="mt-1 focus:ring-red-500 focus:border-red-500 p-2 block w-full shadow-sm sm:text-sm border-gray-300 rounded-md">
-                        </div>
-
-                        <div class="col-span-6 sm:col-span-4">
-                          <label for="email-address" class="block text-sm font-medium text-gray-700">Email address</label>
-                          <input type="text" name="email-address" id="email-address" autocomplete="email" class="mt-1 focus:ring-red-500 focus:border-red-500 p-2 block w-full shadow-sm sm:text-sm border-gray-300 rounded-md">
-                        </div>
-
-                        <div class="col-span-6 sm:col-span-3">
-                          <label for="country" class="block text-sm font-medium text-gray-700">Country</label>
-                          <select id="country" name="country" autocomplete="country-name" class="mt-1 block w-full py-2 px-3 border border-gray-300 bg-white rounded-md shadow-sm focus:outline-none focus:ring-red-500 focus:border-red-500 sm:text-sm">
-                            <option>United States</option>
-                            <option>Canada</option>
-                            <option>Mexico</option>
-                          </select>
-                        </div>
-
-                        <div class="col-span-6">
-                          <label for="street-address" class="block text-sm font-medium text-gray-700">Street address</label>
-                          <input type="text" name="street-address" id="street-address" autocomplete="street-address" class="mt-1 focus:ring-red-500 focus:border-red-500 p-2 block w-full shadow-sm sm:text-sm border-gray-300 rounded-md">
-                        </div>
-
-                        <div class="col-span-6 sm:col-span-6 lg:col-span-2">
-                          <label for="city" class="block text-sm font-medium text-gray-700">City</label>
-                          <input type="text" name="city" id="city" autocomplete="address-level2" class="mt-1 focus:ring-red-500 focus:border-red-500 block w-full shadow-sm sm:text-sm p-2 border-gray-300 rounded-md">
-                        </div>
-
-                        <div class="col-span-6 sm:col-span-3 lg:col-span-2">
-                          <label for="region" class="block text-sm font-medium text-gray-700">State / Province</label>
-                          <input type="text" name="region" id="region" autocomplete="address-level1" class="mt-1 focus:ring-red-500 focus:border-red-500 p-2 block w-full shadow-sm sm:text-sm border-gray-300 rounded-md">
-                        </div>
-
-                        <div class="col-span-6 sm:col-span-3 lg:col-span-2">
-                          <label for="postal-code" class="block text-sm font-medium text-gray-700">ZIP / Postal code</label>
-                          <input type="text" name="postal-code" id="postal-code" autocomplete="postal-code" class="mt-1 focus:ring-red-500 focus:border-red-500 p-2 block w-full shadow-sm sm:text-sm border-gray-300 rounded-md">
-                        </div>
-                      </div>
-                    </div>
-                    <div class="px-4 py-3 bg-gray-300 text-right sm:px-6">
-                      <button type="submit" class="inline-flex justify-center py-2 px-4 border border-transparent shadow-sm text-sm font-medium rounded-md text-white bg-red-600 hover:bg-red-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-red-500">
-                        Save
-                      </button>
-                    </div>
-                  </div>
-                </form>
-              </div>
+              
+            
             </div>
-          </div>
 
-            </div>
+
+            
     </div>
 
-   <div class="w-auto h-screen border-2 border-red-300 flex flex-col justify-end" id="footer">
+   <div class="w-auto h-screen  flex flex-col justify-end" id="footer">
      <!-- Required font awesome -->
      <div class=" p-0 m-0 w-full h-1/4 bg-black"></div>
      <div class="flex justify-around  w-full h-1/3 p-0 ">

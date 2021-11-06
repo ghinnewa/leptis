@@ -89,8 +89,9 @@
               </div>
             </div>
           </nav>
+          
           <div class=" pt-10">
-          <a href="/ndt"
+          <a href="/CC"
   class="
   m-6
     bg-gray-500
@@ -116,7 +117,7 @@
 >
  NDT topics
 </a>
-<a href="/ndtcourses/1"
+<a href="/CCcourses/1"
   class="
   m-3
     bg-red-500
@@ -139,10 +140,7 @@
     duration-150
   "
   
->
-  Courses
-</a>
-</div>
+> 
 
           <div>
             <!-- Container -->
