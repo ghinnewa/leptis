@@ -17,7 +17,7 @@
 <body style="font-family:futural" >
 
 <!-- This example requires Tailwind CSS v2.0+ -->
-<nav class="bg-white z-10 w-full  p-0 m-0  shadow-md">
+<nav class="bg-white z-10 w-full  p-0 m-0 invisible sm:visible  shadow-md">
   <div class="max-w-7xl mx-auto  sm:px-6 lg:px-8">
     <div class="relative  flex  items-center  h-16">
       <div class="absolute inset-y-0 left-0 flex items-center sm:hidden">
@@ -91,56 +91,23 @@
           </nav>
           
           <div class=" pt-10">
-          <a href="/CC"
-  class="
-  m-6
-    bg-gray-500
-    text-white
-    active:bg-purple-600
-    font-bold
-    uppercase
-    text-xs
-    px-4
-    py-2
-    rounded-full
-    shadow
-    hover:shadow-md
-    outline-none
-    focus:outline-none
-    mr-1
-    mb-1
-    ease-linear
-    transition-all
-    duration-150
-  "
- 
->
- NDT topics
+    <!-- component -->
+<!-- This is an example component -->
+<div class="max-w-lg mx-12">
+    <div class="inline-flex shadow-sm rounded-md mb-5" role="group">
+        <a href="/#courses" class="rounded-l-lg border border-gray-200 bg-white text-sm font-medium px-4 py-2 text-gray-900 hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:ring-2 focus:ring-blue-700 focus:text-blue-700">
+          < Topics
 </a>
-<a href="/CCcourses/1"
-  class="
-  m-3
-    bg-red-500
-    text-white
-    active:bg-purple-600
-    font-bold
-    uppercase
-    text-xs
-    px-4
-    py-2
-    rounded-full
-    shadow
-    hover:shadow-md
-    outline-none
-    focus:outline-none
-    mr-1
-    mb-1
-    ease-linear
-    transition-all
-    duration-150
-  "
-  
-> 
+        <a href="/ndt" class="border-t border-b border-gray-200 bg-white text-sm font-medium px-4 py-2 text-gray-900 hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:ring-2 focus:ring-blue-700 focus:text-blue-700">
+          << Trainings
+</a>
+        <a href="/CCcourses/{{$course->topic_id}}" class="rounded-r-md border border-gray-200 bg-white text-sm font-medium px-4 py-2 text-gray-900 hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:ring-2 focus:ring-blue-700 focus:text-blue-700">
+         <<< Courses
+</a>
+    </div>
+   
+</div>
+</div>
 
           <div>
             <!-- Container -->
@@ -198,4 +165,190 @@
 </div>
 <!-- ./Container -->
           </div>
+          <footer class="text-gray-50 body-font  bg-black">
+  <div
+    class="
+      container
+      px-5
+      py-20
+      mx-auto
+      flex
+      md:items-center
+      lg:items-start
+      md:flex-row md:flex-nowrap
+      flex-wrap flex-col
+    "
+  >
+    <div
+      class="w-64 pl-10 flex-shrink-0 md:mx-0 mx-auto text-center md:text-left"
+    >
+      <a
+        href=""
+        class="
+          flex
+          title-font
+          font-medium
+          items-center
+          md:justify-start
+          justify-center 
+          text-gray-100
+        "
+      >
+      <img class="h-2/4 w-1/2" src="{{asset('img/logofull.png')}}" alt="">
+        
+      </a>
+      <p class="mt-2 text-sm text-white">
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Modi,
+        quam?
+      </p>
+    </div>
+    <div
+      class="
+        flex-grow flex flex-wrap
+        md:pl-20
+        -mb-10
+        md:mt-0
+        mt-10
+        md:text-left
+        text-center
+      "
+    >
+      <div class="lg:w-1/4 md:w-1/2 w-full px-4">
+        <h2
+          class="
+            title-font
+            font-medium
+            text-gray-100
+            tracking-widest
+            text-sm
+            mb-3
+          "
+        >
+        Libya office address :
+        </h2>
+        <nav class="list-none mb-10">
+          <li>
+            
+           
+            <h1 class="text-gray-50 "
+              >Noufeelen, Tripoli, Libya</h1
+            >
+            <a href="https://goo.gl/maps/A31Toqe7j8GUHKNi7" class="text-red-500 hover:text-red-800"
+              >Google maps pin</a
+            >
+          </li>
+          
+         
+        </nav>
+      </div>
+      <div class="lg:w-1/4 md:w-1/2 w-full px-4">
+        <h2
+          class="
+            title-font
+            font-medium
+            text-gray-100
+            tracking-widest
+            text-sm
+            mb-3
+          "
+        >
+        Headquarters:
+        </h2>
+        <nav class="list-none mb-10">
+          <li>
+            <a href="" class="text-gray-50 "
+              >Imperial Cour
+2, Exchange Quay <br>
+Manchester <br>
+M5 3EB <br>
+United Kingdom <br> </a
+            >
+            <a href="https://maps.app.goo.gl/8a8q55esXuEgGQvy7" class="text-red-500 hover:text-red-800"
+              >Google maps pins
+            </a>
+          
+        </nav>
+      </div>
+      <div class="lg:w-1/4 md:w-1/2 w-full px-4">
+        <h2
+          class="
+            title-font
+            font-medium
+            text-gray-100
+            tracking-widest
+            text-sm
+            mb-3
+          "
+        >
+          Contact
+        </h2>
+        <nav class="list-none mb-10">
+          <li>
+            <h1  class="text-gray-50 "
+              >HQ's Phone number: <br>
++441 61 4572 146</h1
+            >
+          </li>
+          <li>
+            <h1 class="text-gray-50 "
+              >Libya Office Phone number: <br>
++218 91 0000 000</h1
+            >
+          </li>
+          
+        </nav>
+      </div>
+      <div class="lg:w-1/4 md:w-1/2 w-full px-4">
+        <h2
+          class="
+            title-font
+            font-medium
+            text-gray-100
+            tracking-widest
+            text-sm
+            mb-3
+          "
+        >
+         Social media
+        </h2>
+        <nav class="list-none mb-10">
+          <li>
+            <a href="" class="text-red-500 hover:text-red-800"
+              ><i class="fab fa-facebook-f"></i> <span class="text-red-50"> - Facebook</span></a
+            >
+          </li>
+          <li>
+            <a href="" class="text-red-500 hover:text-red-800"
+              > <i class="fab fa-linkedin-in"></i><span class="text-red-50"> - Linkedin</span></a
+            >
+          </li>
+         
+        </nav>
+      </div>
+    </div>
+  </div>
+  <div class="bg-red-500 ">
+    <div
+      class="
+        container
+        mx-auto
+        py-3
+        px-5
+        flex flex-wrap flex-col
+        sm:flex-row
+      "
+    >
+      <p class="text-white text-sm text-center sm:text-left">
+        © 2021 Copyright
+        <a
+          href="https://www.tailwind-elements.com/"
+          class="text-gray-50 ml-1"
+          target="_blank"
+          ></a
+        >
+      </p>
+     
+    </div>
+  </div>
+</footer>
           </body>

@@ -17,7 +17,7 @@
 <body style="font-family:futural" >
 
 <!-- This example requires Tailwind CSS v2.0+ -->
-<nav class="bg-white z-10 w-full  p-0 m-0  shadow-md">
+<nav class="bg-white z-10 w-full  p-0 m-0 invisible sm:visible shadow-md">
   <div class="max-w-7xl mx-auto  sm:px-6 lg:px-8">
     <div class="relative  flex  items-center  h-16">
       <div class="absolute inset-y-0 left-0 flex items-center sm:hidden">
@@ -99,8 +99,8 @@
              
   
   <div class="w-full lg:w-6/12  p-8">
-    <div class="flex flex-col lg:flex-row rounded overflow-hidden h-auto lg:h-32 border shadow shadow-lg">
-      <img class="block h-auto w-full lg:w-48 flex-none bg-cover h-24" src="{{asset('img/example.jpg')}}">
+    <div class="flex flex-col lg:flex-row rounded overflow-hidden h-auto lg:h-32 border shadow-lg">
+      <img class="block h-auto w-full lg:w-48 flex-none bg-cover " src="{{asset('img/courses/{$course->id}.jpg')}}">
       <div class="bg-white rounded-b lg:rounded-b-none lg:rounded-r p-6 flex flex-col justify-between leading-normal">
         <div class="text-black font-bold text-xl mb-2 leading-tight">{{$course->title}}</div>
        <a href="{{route('ndtcourse',$course)}}"> <p class="text-grey-darker text-base">Read more</p></a>
@@ -123,7 +123,6 @@
       py-20
       mx-auto
       flex
-      mt-10
       md:items-center
       lg:items-start
       md:flex-row md:flex-nowrap
@@ -175,29 +174,21 @@
             mb-3
           "
         >
-          CATEGORIES
+        Libya office address :
         </h2>
         <nav class="list-none mb-10">
           <li>
-            <a href="" class="text-gray-50 hover:text-gray-800"
-              >First Link</a
+            
+           
+            <h1 class="text-gray-50 "
+              >Noufeelen, Tripoli, Libya</h1
+            >
+            <a href="https://goo.gl/maps/A31Toqe7j8GUHKNi7" class="text-red-500 hover:text-red-800"
+              >Google maps pin</a
             >
           </li>
-          <li>
-            <a href="" class="text-gray-50 hover:text-gray-800"
-              >Second Link</a
-            >
-          </li>
-          <li>
-            <a href="" class="text-gray-50 hover:text-gray-800"
-              >Third Link</a
-            >
-          </li>
-          <li>
-            <a href="" class="text-gray-50 hover:text-gray-800"
-              >Fourth Link</a
-            >
-          </li>
+          
+         
         </nav>
       </div>
       <div class="lg:w-1/4 md:w-1/2 w-full px-4">
@@ -211,29 +202,21 @@
             mb-3
           "
         >
-          CATEGORIES
+        Headquarters:
         </h2>
         <nav class="list-none mb-10">
           <li>
-            <a href="" class="text-gray-50 hover:text-gray-800"
-              >First Link</a
+            <a href="" class="text-gray-50 "
+              >Imperial Cour
+2, Exchange Quay <br>
+Manchester <br>
+M5 3EB <br>
+United Kingdom <br> </a
             >
-          </li>
-          <li>
-            <a href="" class="text-gray-50 hover:text-gray-800"
-              >Second Link</a
-            >
-          </li>
-          <li>
-            <a href="" class="text-gray-50 hover:text-gray-800"
-              >Third Link</a
-            >
-          </li>
-          <li>
-            <a href="" class="text-gray-50 hover:text-gray-800"
-              >Fourth Link</a
-            >
-          </li>
+            <a href="https://maps.app.goo.gl/8a8q55esXuEgGQvy7" class="text-red-500 hover:text-red-800"
+              >Google maps pins
+            </a>
+          
         </nav>
       </div>
       <div class="lg:w-1/4 md:w-1/2 w-full px-4">
@@ -247,29 +230,22 @@
             mb-3
           "
         >
-          CATEGORIES
+          Contact
         </h2>
         <nav class="list-none mb-10">
           <li>
-            <a href="" class="text-gray-50 hover:text-gray-800"
-              >First Link</a
+            <h1  class="text-gray-50 "
+              >HQ's Phone number: <br>
++441 61 4572 146</h1
             >
           </li>
           <li>
-            <a href="" class="text-gray-50 hover:text-gray-800"
-              >Second Link</a
+            <h1 class="text-gray-50 "
+              >Libya Office Phone number: <br>
++218 91 0000 000</h1
             >
           </li>
-          <li>
-            <a href="" class="text-gray-50 hover:text-gray-800"
-              >Third Link</a
-            >
-          </li>
-          <li>
-            <a href="" class="text-gray-50 hover:text-gray-800"
-              >Fourth Link</a
-            >
-          </li>
+          
         </nav>
       </div>
       <div class="lg:w-1/4 md:w-1/2 w-full px-4">
@@ -283,29 +259,20 @@
             mb-3
           "
         >
-          CATEGORIES
+         Social media
         </h2>
         <nav class="list-none mb-10">
           <li>
-            <a href="" class="text-gray-50 hover:text-gray-800"
-              >First Link</a
+            <a href="" class="text-red-500 hover:text-red-800"
+              ><i class="fab fa-facebook-f"></i> <span class="text-red-50"> - Facebook</span></a
             >
           </li>
           <li>
-            <a href="" class="text-gray-50 hover:text-gray-800"
-              >Second Link</a
+            <a href="" class="text-red-500 hover:text-red-800"
+              > <i class="fab fa-linkedin-in"></i><span class="text-red-50"> - Linkedin</span></a
             >
           </li>
-          <li>
-            <a href="" class="text-gray-50 hover:text-gray-800"
-              >Third Link</a
-            >
-          </li>
-          <li>
-            <a href="" class="text-gray-50 hover:text-gray-800"
-              >Fourth Link</a
-            >
-          </li>
+         
         </nav>
       </div>
     </div>
@@ -330,32 +297,9 @@
           ></a
         >
       </p>
-      <span
-        class="
-          inline-flex
-          sm:ml-auto sm:mt-0
-          mt-2
-          justify-center
-          sm:justify-start
-        "
-      >
-        <a href="" class="text-white">
-          <i class="fab fa-facebook-f"></i>
-        </a>
-        <a href="" class="ml-3 text-white">
-          <i class="fab fa-twitter"></i>
-        </a>
-        <a href="" class="ml-3 text-white">
-          <i class="fab fa-linkedin-in"></i>
-        </a>
-        <a href="" class="ml-3 text-white">
-          <i class="fab fa-youtube"></i>
-        </a>
-        <a href="" class="ml-3 text-white">
-          <i class="fab fa-instagram"></i>
-        </a>
-      </span>
+     
     </div>
   </div>
 </footer>
+<script src="https://kit.fontawesome.com/69393ee716.js" crossorigin="anonymous"></script>
           </body>

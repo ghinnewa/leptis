@@ -14,10 +14,10 @@
  src: url('{{asset('fonts/FUTURAL.TTF')}}');
  }
  </style>
-<body style="font-family:futural" >
+<body style="font-family:futural" class="bg-gray-100">
 
 <!-- This example requires Tailwind CSS v2.0+ -->
-<nav class="bg-white z-10 w-full  p-0 m-0  shadow-md">
+<nav class="bg-white z-10 w-full  invisible sm:visible p-0 m-0  shadow-md">
   <div class="max-w-7xl mx-auto  sm:px-6 lg:px-8">
     <div class="relative  flex  items-center  h-16">
       <div class="absolute inset-y-0 left-0 flex items-center sm:hidden">
@@ -89,14 +89,14 @@
               </div>
             </div>
           </nav>
-<div class=" flex pt-11 flex-col items-center h-screen">
+<div class=" flex pt-11 flex-col items-center min-h-screen">
     <h1 class="text-3xl" >CC Courses</h1>
 
-          <div class=" h-auto w-auto p-20 py-8 m-0 flex flex-wrap flex-shrink justify-around items-center ">
+          <div class=" h-auto w-auto p-20 py-8 m-0 flex flex-wrap  lg:flex-row flex-col justify-around items-center ">
               @foreach( $topics as $topic )
              
-             <a href="{{route('CCcourses',$topic)}}" class="hover:shadow-xl w-3/12 rounded-md shadow-2xl border-red-400 flex  items-center p-6 m-4" >
-              <img src="{{asset('img/'.$topic->title.$fullname)}}" class="w-1/5 mr-6 rounded-full border-4 border-black" alt="">
+             <a href="{{route('CCcourses',$topic)}}" class="hover:shadow-lg lg:w-3/12 w-full rounded-md shadow-md border-red-400 flex bg-white  items-center p-6 m-4" >
+              <img src="{{asset('img/topic/'.$topic->id.'.jpg')}}" class="w-1/5 mr-6 rounded-full border-4 border-black" alt="">
               <h1 class="text-lg">{{$topic->title}}</h1></a>
               @endforeach
               <div class=" w-3/12  p-6 m-4" >
