@@ -104,7 +104,7 @@
           </div>
     </div>
     
-<footer class="text-gray-50 body-font  bg-black">
+    <footer class="text-gray-50 body-font  bg-black">
   <div
     class="
       container
@@ -163,29 +163,21 @@
             mb-3
           "
         >
-          CATEGORIES
+        Libya office address :
         </h2>
         <nav class="list-none mb-10">
           <li>
-            <a href="" class="text-gray-50 hover:text-gray-800"
-              >First Link</a
+            
+           
+            <h1 class="text-gray-50 "
+              >Noufeelen, Tripoli, Libya</h1
+            >
+            <a href="https://goo.gl/maps/A31Toqe7j8GUHKNi7" class="text-red-500 hover:text-red-800"
+              >Google maps pin</a
             >
           </li>
-          <li>
-            <a href="" class="text-gray-50 hover:text-gray-800"
-              >Second Link</a
-            >
-          </li>
-          <li>
-            <a href="" class="text-gray-50 hover:text-gray-800"
-              >Third Link</a
-            >
-          </li>
-          <li>
-            <a href="" class="text-gray-50 hover:text-gray-800"
-              >Fourth Link</a
-            >
-          </li>
+          
+         
         </nav>
       </div>
       <div class="lg:w-1/4 md:w-1/2 w-full px-4">
@@ -199,29 +191,21 @@
             mb-3
           "
         >
-          CATEGORIES
+        Headquarters:
         </h2>
         <nav class="list-none mb-10">
           <li>
-            <a href="" class="text-gray-50 hover:text-gray-800"
-              >First Link</a
+            <a href="" class="text-gray-50 "
+              >Imperial Cour
+2, Exchange Quay <br>
+Manchester <br>
+M5 3EB <br>
+United Kingdom <br> </a
             >
-          </li>
-          <li>
-            <a href="" class="text-gray-50 hover:text-gray-800"
-              >Second Link</a
-            >
-          </li>
-          <li>
-            <a href="" class="text-gray-50 hover:text-gray-800"
-              >Third Link</a
-            >
-          </li>
-          <li>
-            <a href="" class="text-gray-50 hover:text-gray-800"
-              >Fourth Link</a
-            >
-          </li>
+            <a href="https://maps.app.goo.gl/8a8q55esXuEgGQvy7" class="text-red-500 hover:text-red-800"
+              >Google maps pins
+            </a>
+          
         </nav>
       </div>
       <div class="lg:w-1/4 md:w-1/2 w-full px-4">
@@ -235,29 +219,22 @@
             mb-3
           "
         >
-          CATEGORIES
+          Contact
         </h2>
         <nav class="list-none mb-10">
           <li>
-            <a href="" class="text-gray-50 hover:text-gray-800"
-              >First Link</a
+            <h1  class="text-gray-50 "
+              >HQ's Phone number: <br>
++441 61 4572 146</h1
             >
           </li>
           <li>
-            <a href="" class="text-gray-50 hover:text-gray-800"
-              >Second Link</a
+            <h1 class="text-gray-50 "
+              >Libya Office Phone number: <br>
++218 91 0000 000</h1
             >
           </li>
-          <li>
-            <a href="" class="text-gray-50 hover:text-gray-800"
-              >Third Link</a
-            >
-          </li>
-          <li>
-            <a href="" class="text-gray-50 hover:text-gray-800"
-              >Fourth Link</a
-            >
-          </li>
+          
         </nav>
       </div>
       <div class="lg:w-1/4 md:w-1/2 w-full px-4">
@@ -271,29 +248,20 @@
             mb-3
           "
         >
-          CATEGORIES
+         Social media
         </h2>
         <nav class="list-none mb-10">
           <li>
-            <a href="" class="text-gray-50 hover:text-gray-800"
-              >First Link</a
+            <a href="https://www.facebook.com/Leptis-Training-Libya-109154421577282" class="text-red-500 hover:text-red-800"
+              ><i class="fab fa-facebook-f"></i> <span class="text-red-50"> - Facebook</span></a
             >
           </li>
           <li>
-            <a href="" class="text-gray-50 hover:text-gray-800"
-              >Second Link</a
+            <a href="https://www.linkedin.com/company/leptis-training/" class="text-red-500 hover:text-red-800"
+              > <i class="fab fa-linkedin-in"></i><span class="text-red-50"> - Linkedin</span></a
             >
           </li>
-          <li>
-            <a href="" class="text-gray-50 hover:text-gray-800"
-              >Third Link</a
-            >
-          </li>
-          <li>
-            <a href="" class="text-gray-50 hover:text-gray-800"
-              >Fourth Link</a
-            >
-          </li>
+         
         </nav>
       </div>
     </div>
@@ -318,31 +286,7 @@
           ></a
         >
       </p>
-      <span
-        class="
-          inline-flex
-          sm:ml-auto sm:mt-0
-          mt-2
-          justify-center
-          sm:justify-start
-        "
-      >
-        <a href="" class="text-white">
-          <i class="fab fa-facebook-f"></i>
-        </a>
-        <a href="" class="ml-3 text-white">
-          <i class="fab fa-twitter"></i>
-        </a>
-        <a href="" class="ml-3 text-white">
-          <i class="fab fa-linkedin-in"></i>
-        </a>
-        <a href="" class="ml-3 text-white">
-          <i class="fab fa-youtube"></i>
-        </a>
-        <a href="" class="ml-3 text-white">
-          <i class="fab fa-instagram"></i>
-        </a>
-      </span>
+     
     </div>
   </div>
 </footer>

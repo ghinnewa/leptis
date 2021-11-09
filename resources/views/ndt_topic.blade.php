@@ -93,7 +93,7 @@
     <!-- component -->
 <!-- This is an example component -->
 <div class="max-w-lg mx-12">
-    <div class="inline-flex shadow-sm rounded-md mb-5" role="group">
+    <div class="inline-flex shadow-sm rounded-md " role="group">
         <a href="/#courses" class="rounded-l-lg border border-gray-200 bg-white text-sm font-medium px-4 py-2 text-gray-900 hover:bg-gray-100 hover:text-red-700 focus:z-10 focus:ring-2 focus:ring-red-700 focus:text-red-700">
           < Topics
 </a>
@@ -102,7 +102,7 @@
    
 </div>
 </div>
-<div class=" flex pt:0 sm:pt-11 flex-col items-center  min-h-screen">
+<div class=" flex pt:0 sm:pt-1 flex-col items-center  min-h-screen">
     <h1 class="text-3xl" >NDT Courses</h1>
 
     <div class=" h-auto w-auto p-20 py-8 m-0 flex flex-wrap  lg:flex-row flex-col justify-around items-center ">
@@ -265,12 +265,12 @@ United Kingdom <br> </a
         </h2>
         <nav class="list-none mb-10">
           <li>
-            <a href="" class="text-red-500 hover:text-red-800"
+            <a href="https://www.facebook.com/Leptis-Training-Libya-109154421577282" class="text-red-500 hover:text-red-800"
               ><i class="fab fa-facebook-f"></i> <span class="text-red-50"> - Facebook</span></a
             >
           </li>
           <li>
-            <a href="" class="text-red-500 hover:text-red-800"
+            <a href="https://www.linkedin.com/company/leptis-training/" class="text-red-500 hover:text-red-800"
               > <i class="fab fa-linkedin-in"></i><span class="text-red-50"> - Linkedin</span></a
             >
           </li>

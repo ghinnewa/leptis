@@ -472,12 +472,12 @@ United Kingdom <br> </a
         </h2>
         <nav class="list-none mb-10">
           <li>
-            <a href="" class="text-red-500 hover:text-red-800"
+            <a href="https://www.facebook.com/Leptis-Training-Libya-109154421577282" class="text-red-500 hover:text-red-800"
               ><i class="fab fa-facebook-f"></i> <span class="text-red-50"> - Facebook</span></a
             >
           </li>
           <li>
-            <a href="" class="text-red-500 hover:text-red-800"
+            <a href="https://www.linkedin.com/company/leptis-training/" class="text-red-500 hover:text-red-800"
               > <i class="fab fa-linkedin-in"></i><span class="text-red-50"> - Linkedin</span></a
             >
           </li>
