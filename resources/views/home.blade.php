@@ -238,19 +238,19 @@
             <div class="flex sm:flex-row flex-col justify-around items-center ">
               <div class="sm:w-1/2 w-auto">
                 <div class=" sm:p-12 m-10 p-3 py-5   sm:px-0 flex  flex-col items-center justify-center  h-full rounded-xl bg-gray-100  ">
-                <img class="h-auto  w-1/3 opacity-60 border-2 border-black p-1 rounded-full " src="{{asset('img/class.png')}}" alt="">
-                  <h3 class="text-2xl font-medium leading-6 p-4 text-black">Personal Information</h3>
+                <img class="h-auto  w-1/3 opacity-60 border-4 border-black p-1 rounded-full " src="{{asset('img/class.png')}}" alt="">
+                  <h3 class="text-2xl font-medium leading-6 p-4 text-black">To Register</h3>
                   <p class="mt-1 text-lg px-6 text-center text-black">
-                    Use a permanent address where you can receive mail.
+                  Send us the name of the course you want
                   </p>
                   
                   <!-- <a href="http://simplybooking.com/" class=" bg-red-500 rounded-md text-white px-6 py-2 my-6">register now!</a> -->
                 </div>
                 <div class=" sm:p-12 m-10  p-3 py-5   sm:px-0 flex  flex-col items-center justify-center  h-full rounded-xl bg-gray-100 sm:mt-0 mt-20">
-                  <img class="h-auto w-1/3 opacity-60 border-2 border-black p-1 rounded-full " src="{{asset('img/que.png')}}" alt="">
-                  <h3 class="text-2xl font-medium leading-6 p-4 text-black">Personal Information</h3>
+                  <img class="h-auto w-1/3 opacity-60 border-4 border-black p-1 rounded-full " src="{{asset('img/que.png')}}" alt="">
+                  <h3 class="text-2xl font-medium leading-6 p-4 text-black">For inquiries</h3>
                   <p class="mt-1 text-lg px-6 text-center text-black">
-                    Use a permanent address where you can receive mail.
+                  Send us all your questions and comments
                   </p>
                 <!-- <a href="https://www.icorr.org/correx/" class=" bg-red-500 rounded-md text-white px-6 py-2 my-6">connect with us</a> -->
                 </div>
