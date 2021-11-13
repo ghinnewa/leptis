@@ -91,7 +91,8 @@
             </div> -->
           </nav>
         <!-- <div class="w-auto h-screen border-2 border-red-300" id="navbar"></div> -->
-        <div class="w-auto min-h-screen " style="background-image: url('{{ asset('img/home.png')}}');  background-position:center;" id="home">
+        <div class="w-auto min-h-screen " style="background-image: url('{{ asset('img/home.png')}}');  background-position:center ; background-repeat: no-repeat;
+  background-size: cover;" id="home">
               <div class="flex-col-reverse  sm:flex-row   flex items-center justify-center lite sm:w-auto sm:h-screen p-0 m-0  bg-gradient-to-b from-black  to-transparent ">   
                   <div id="text" class="text-white w-auto sm:w-5/12 mr-18 sm:pt-10 pt:4 flex flex-col justify-center items-center sm:items-start sm:flex" >
                       <h1 class="sm:text-7xl text-5xl sm:text-left text-center" >Leptis<span class="font-thin opacity-50">Training</span></h1>
