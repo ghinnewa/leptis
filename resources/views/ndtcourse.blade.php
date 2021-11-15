@@ -69,7 +69,7 @@
  
           </nav>
           
-          <div class=" pt-10">
+          <div class=" sm:pt-10">
     <!-- component -->
 <!-- This is an example component -->
 <div class="max-w-lg mx-12">
@@ -90,13 +90,13 @@
 
           <div>
             <!-- Container -->
-<div class="container  my-10  p-4 md:p-0">
+<div class="container  sm:my-10  p-4 md:p-0">
   
   <!-- Card wrapper -->
   <div class="shadow-lg  bg-white   rounded-md  flex flex-wrap items-center justify-center flex-row-reverse w-full lg:w-4/5 mx-auto">
     
     <!-- Card image -->
-    <div class="bg-cover bg-bottom border-4 w-1/4 rounded-lg h-64 md:h-72 relative" style="background-image:url('{{asset('img/courses/'.$course->id.'.jpg')}}')">
+    <div class="bg-cover bg-bottom border-4 w-full sm:w-1/4 rounded-lg h-64 md:h-72 relative" style="background-image:url('{{asset('img/courses/'.$course->id.'.jpg')}}')">
       
        
      
@@ -131,8 +131,8 @@
           <!-- ./Card description -->
           
           <!-- Call to action button -->
-          <div class="w-full lg:w-2/6 mt-16 lg:mt-0 lg:px-4 text-center md:text-left">
-            <button onclick="openForm()" class="bg-white hover:bg-grey-darker hover:text-white hover:bg-red-700 border my-4 border-solid border-grey w-1/3 lg:w-full py-2">Register now</button>
+          <div class="w-full lg:w-2/6 mt-16 lg:mt-0 border-red-600 lg:px-4 text-center md:text-left">
+            <button onclick="openForm()" class="bg-white hover:bg-grey-darker hover:text-white hover:bg-red-700 border my-4 border-solid border-grey px-10 sm:px-0 sm:w-1/3 lg:w-full py-2">Register now</button>
           </div>
           <!-- ./Call to action button -->
         </div>

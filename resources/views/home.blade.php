@@ -121,15 +121,15 @@
                         
                     </div>
 
-   <div class="w-auto  mt-10 pt-8 flex flex-col items-center h-screen sm:h-auto" id="partners">
-     <h1 class="sm:text-5xl text-3xl absolute font-bold sm:mt-36  p-3 z-0 uppercase  border-2  border-r-0 border-l-0 bg-white bg-opacity-50 border-red-300 text-red-600" style="letter-spacing: 10px;" >Our Partners</h1>
-     <div class=" flex flex-col sm:h-screen sm:flex-row sm:py-0 h-5/6 flex-wrap justify-center items-center " id="partner">
-     <div  style="background-image: url('{{ asset('img/pill2.svg')}}');   background-repeat:no-repeat; background-size:fill; background-position:center " class="w-1/3 sm:w-1/6 mx-2 h-56 sm:h-screen flex justify-center items-center" >
+   <div class="w-auto   mt-10 pt-8 flex flex-col items-center h-screen sm:h-auto" id="partners" style="height: 90vh;">
+     <h1 class="sm:text-5xl text-3xl absolute font-bold sm:mt-36 sm:my-0 my-20 p-3 z-0 uppercase  border-2  border-r-0 border-l-0 bg-white bg-opacity-50 border-red-300 text-red-600" style="letter-spacing: 10px;" >Our Partners</h1>
+     <div class=" flex flex-col sm:h-screen sm:flex-row sm:py-0 h-full flex-wrap justify-center items-center " id="partner">
+     <div  style="background-image: url('{{ asset('img/pill2.svg')}}');   background-repeat:no-repeat; background-size:fill; background-position:center " class="w-1/3 sm:w-1/6 my-3 mx-2  h-56 sm:h-screen flex justify-center items-center" >
      <img class="w-10/12" src="{{asset('img/partner1.png')}}" alt="" >
       </div>
-     <div  style="background-image: url('{{ asset('img/pill2.svg')}}');   background-repeat:no-repeat; background-size:fill; background-position:center " class="w-1/3 sm:w-1/6 mx-2 h-56 sm:h-screen flex justify-center items-center" > <img class="w-10/12" src="{{asset('img/partner2.png')}}" alt="" ></div>
-     <div  style="background-image: url('{{ asset('img/pill2.svg')}}');   background-repeat:no-repeat; background-size:fill; background-position:center " class="w-1/3 sm:w-1/6 mx-2 h-56 sm:h-screen flex justify-center items-center" > <img class="w-10/12" src="{{asset('img/partner3.png')}}" alt="" ></div>
-     <div  style="background-image: url('{{ asset('img/pill2.svg')}}');   background-repeat:no-repeat; background-size:fill; background-position:center " class=" w-1/3 sm:w-1/6 h-56 sm:h-screen flex justify-center items-center" > <img class="w-10/12" src="{{asset('img/partner4.png')}}" alt="" ></div>
+     <div  style="background-image: url('{{ asset('img/pill2.svg')}}');   background-repeat:no-repeat; background-size:fill; background-position:center " class="w-1/3 sm:w-1/6 my-3 mx-2 h-56 sm:h-screen flex justify-center items-center" > <img class="w-10/12" src="{{asset('img/partner2.png')}}" alt="" ></div>
+     <div  style="background-image: url('{{ asset('img/pill2.svg')}}');   background-repeat:no-repeat; background-size:fill; background-position:center " class="w-1/3 sm:w-1/6 my-3 mx-2 h-56 sm:h-screen flex justify-center items-center" > <img class="w-10/12" src="{{asset('img/partner3.png')}}" alt="" ></div>
+     <div  style="background-image: url('{{ asset('img/pill2.svg')}}');   background-repeat:no-repeat; background-size:fill; background-position:center " class=" w-1/3 sm:w-1/6 my-3 h-56 sm:h-screen flex justify-center items-center" > <img class="w-10/12" src="{{asset('img/partner4.png')}}" alt="" ></div>
     </div>
    </div>
 
@@ -226,7 +226,7 @@
    
      
    
-   <div class="w-auto h-auto  p-10" id="contact">
+   <div class="w-auto h-auto  sm:p-10" id="contact">
 
           <div class="hidden sm:block" aria-hidden="true">
             <div class="py-5">
@@ -236,9 +236,9 @@
 
          
 
-            <div class="flex sm:flex-row flex-col justify-around items-center ">
-              <div class="sm:w-1/2 w-auto">
-                <div class=" sm:p-12 m-10 p-3 py-5   sm:px-0 flex  flex-col items-center justify-center  h-full rounded-xl bg-gray-100  ">
+            <div class="flex sm:flex-row flex-col justify-around border-green-600  items-center ">
+              <div class="sm:w-1/2 w-auto border-green-600 "> 
+                <div class=" sm:p-12 m-3 p-3 py-5 sm:m-10  sm:px-0 flex  flex-col items-center justify-center  h-full rounded-xl bg-gray-100  ">
                 <img class="h-auto  w-1/3 opacity-60 border-4 border-black p-1 rounded-full " src="{{asset('img/class.png')}}" alt="">
                   <h3 class="text-2xl font-medium leading-6 p-4 text-black">To Register</h3>
                   <p class="mt-1 text-lg px-6 text-center text-black">
@@ -247,7 +247,7 @@
                   
                   <!-- <a href="http://simplybooking.com/" class=" bg-red-500 rounded-md text-white px-6 py-2 my-6">register now!</a> -->
                 </div>
-                <div class=" sm:p-12 m-10  p-3 py-5   sm:px-0 flex  flex-col items-center justify-center  h-full rounded-xl bg-gray-100 sm:mt-0 mt-20">
+                <div class=" sm:p-12 m-3 p-3 py-5 sm:m-10  sm:px-0 flex  flex-col items-center justify-center  h-full rounded-xl bg-gray-100 ">
                   <img class="h-auto w-1/3 opacity-60 border-4 border-black p-1 rounded-full " src="{{asset('img/que.png')}}" alt="">
                   <h3 class="text-2xl font-medium leading-6 p-4 text-black">For inquiries</h3>
                   <p class="mt-1 text-lg px-6 text-center text-black">
@@ -512,6 +512,7 @@ United Kingdom <br> </a
   </div>
 </footer>
    </div>
+  
    <script id="ze-snippet" src="https://static.zdassets.com/ekr/snippet.js?key=165f9822-9c14-4f93-97b5-8d71f795a07f"> </script><!-- End of leptistraining Zendesk Widget script -->
 </body>
 </html>

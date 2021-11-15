@@ -17,7 +17,7 @@
 <body style="font-family:futural" >
 
 <!-- This example requires Tailwind CSS v2.0+ -->
-<nav class="bg-white z-10 w-full  p-0 m-0 invisible sm:visible shadow-md">
+<nav class="bg-white z-10 sm:w-full w-0 h-0 sm:h-auto invisible sm:visible p-0 m-0  shadow-md">
   <div class="max-w-7xl mx-auto  sm:px-6 lg:px-8">
     <div class="relative  flex  items-center  h-16">
       <div class="absolute inset-y-0 left-0 flex items-center sm:hidden">
@@ -66,7 +66,7 @@
           </div>
         </div>
       </div>
-      
+       
         
 
         <!-- Profile dropdown -->
@@ -89,10 +89,10 @@
               </div>
             </div>
           </nav>
-          <div class=" pt-10">
+          <div class="">
     <!-- component -->
 <!-- This is an example component -->
-<div class="max-w-lg mx-12">
+<div class="max-w-lg m-5 sm:mx-12">
     <div class="inline-flex shadow-sm rounded-md " role="group">
         <a href="/#courses" class="rounded-l-lg border border-gray-200 bg-white text-sm font-medium px-4 py-2 text-gray-900 hover:bg-gray-100 hover:text-red-700 focus:z-10 focus:ring-2 focus:ring-red-700 focus:text-red-700">
           < Topics
@@ -103,12 +103,12 @@
 </div>
 </div>
 <div class=" flex pt:0 sm:pt-1 flex-col items-center  min-h-screen">
-    <h1 class="text-3xl" >NDT Courses</h1>
+    <h1 class="text-3xl bg" >NDT Courses</h1>
 
-    <div class=" h-auto w-auto p-20 py-8 m-0 flex flex-wrap  lg:flex-row flex-col justify-around items-center ">
+    <div class=" h-auto w-auto p-5 sm:p-20  border-red-600 sm:py-8 m-0 flex flex-wrap  lg:flex-row flex-col justify-around items-center ">
               @foreach( $topics as $topic )
              
-             <a href="{{route('CCcourses',$topic)}}" class="hover:shadow-lg lg:w-3/12 w-full rounded-md shadow-md border-red-400 flex bg-white  items-center p-6 m-4" >
+             <a href="{{route('CCcourses',$topic)}}" class="hover:shadow-lg lg:w-3/12 w-full rounded-md shadow-md border-red-400 flex bg-white  items-center p-6 my-3 sm:m-4"  >
               <img src="{{asset('img/topic/'.$topic->id.'.jpg')}}" class="w-1/5 mr-6 rounded-full border-4 border-black" alt="">
               <h1 class="text-lg">{{$topic->title}}</h1></a>
               @endforeach

@@ -17,7 +17,7 @@
 <body style="font-family:futural" >
 
 <!-- This example requires Tailwind CSS v2.0+ -->
-<nav class="bg-white z-10 w-full  p-0 m-0 invisible sm:visible  shadow-md">
+<nav class="bg-white z-10 sm:w-full w-0 h-0 sm:h-auto invisible sm:visible p-0 m-0  shadow-md">
   <div class="max-w-7xl mx-auto  sm:px-6 lg:px-8">
     <div class="relative  flex  items-center  h-16">
       <div class="absolute inset-y-0 left-0 flex items-center sm:hidden">

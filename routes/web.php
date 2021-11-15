@@ -23,6 +23,9 @@ Route::get('/hi', [course::class,'showhi']);
 // Route::get('/dashboard', view('dashboard.home'));
 Route::get('/ndt', [TopicController::class,'index']);
 Route::get('/CC', [TopicController::class,'index2']);
+Route::get('/back', function(){
+    return (redirect()->back());
+});
 Route::get('/ndtcourses/{topic}', [TopicController::class,'courses'])->name('ndtcourses');
 Route::get('/CCcourses/{topic}', [TopicController::class,'courses'])->name('CCcourses');
 Route::get('/ndtcourse/{course}', [TopicController::class,'course'])->name('ndtcourse');

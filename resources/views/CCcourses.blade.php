@@ -17,7 +17,7 @@
 <body style="font-family:futural" >
 
 <!-- This example requires Tailwind CSS v2.0+ -->
-<nav class="bg-white z-10 w-full  p-0 m-0 invisible sm:visible  shadow-md">
+<nav  class="bg-white z-10 sm:w-full w-0 h-0 sm:h-auto invisible sm:visible p-0 m-0  shadow-md">
   <div class="max-w-7xl mx-auto  sm:px-6 lg:px-8">
     <div class="relative  flex  items-center  h-16">
       <div class="absolute inset-y-0 left-0 flex items-center sm:hidden">
@@ -90,16 +90,31 @@
             </div>
           </nav>
       
-          <div class=" flex pt-11 flex-col w-screne items-center min-h-screen">
-    <h1 class="text-3xl" >NDT Courses</h1>
+          <div class=" sm:pt-10">
+    <!-- component -->
+<!-- This is an example component -->
+<div class="max-w-lg m-5 sm:mx-12 sm:m-0">
+    <div class="inline-flex shadow-sm rounded-md " role="group">
+        <a href="/#courses" class="rounded-l-lg border border-gray-200 bg-white text-sm font-medium px-4 py-2 text-gray-900 hover:bg-gray-100 hover:text-red-700 focus:z-10 focus:ring-2 focus:ring-red-700 focus:text-red-700">
+          < Topics
+</a>
+<a href="{{ url()->previous() }}" class="border-t border-b border-gray-200 bg-white text-sm font-medium px-4 py-2 text-gray-900 hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:ring-2 focus:ring-blue-700 focus:text-blue-700">
+          << Trainings
+</a>
+    </div>
+   
+</div>
+</div>
+          <div class=" flex  flex-col w-screne items-center ">
+    <h1 class="text-3xl" > Courses</h1>
 
           
-            <div class="h-full max-w-full m-auto flex flex-wrap flex-col md:flex-row items-center justify-start">
+            <div class="h-full max-w-full m-auto flex flex-wrap flex-col md:flex-row items-center justify-start sm:w-5/6">
               @foreach( $courses as $course )
              
   
-  <div class="w-full lg:w-6/12  p-8">
-    <div class="flex flex-col lg:flex-row rounded overflow-hidden h-auto lg:h-32 border  shadow-md hover:shadow-lg ">
+  <div class=" lg:w-6/12 p-8">
+    <div class="flex flex-col  lg:flex-row rounded overflow-hidden h-auto lg:h-32 border  shadow-md hover:shadow-lg ">
       <img class="block h-auto w-full lg:w-48 flex-none  " src="{{asset('img/courses/'.$course->id.'.jpg')}}">
       <div class="bg-white rounded-b lg:rounded-b-none lg:rounded-r p-6 flex flex-col justify-between leading-normal">
         <div class="text-black font-bold text-xl mb-2 leading-tight">{{$course->title}}</div>
