@@ -122,7 +122,7 @@
                     </div>
 
    <div class="w-auto   mt-10 pt-8 flex flex-col items-center h-screen sm:h-auto" id="partners" style="height: 90vh;">
-     <h1 class="sm:text-5xl text-3xl absolute font-bold sm:mt-36 sm:my-0 my-20 p-3 z-0 uppercase  border-2  border-r-0 border-l-0 bg-white bg-opacity-50 border-red-300 text-red-600" style="letter-spacing: 10px;" >Our Partners</h1>
+     <h1 class="sm:text-5xl text-3xl absolute font-bold sm:mt-36 sm:my-0 mb-20 p-3 z-0 uppercase  border-2  border-r-0 border-l-0 bg-white bg-opacity-50 border-red-300 text-red-600" style="letter-spacing: 10px;" >Our Partners</h1>
      <div class=" flex flex-col sm:h-screen sm:flex-row sm:py-0 h-full flex-wrap justify-center items-center " id="partner">
      <div  style="background-image: url('{{ asset('img/pill2.svg')}}');   background-repeat:no-repeat; background-size:fill; background-position:center " class="w-1/3 sm:w-1/6 my-3 mx-2  h-56 sm:h-screen flex justify-center items-center" >
      <img class="w-10/12" src="{{asset('img/partner1.png')}}" alt="" >
