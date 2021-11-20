@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="{{asset('css/style.css')}}" type="text/css">
    <link href="{{ asset('css/app.css') }}" rel="stylesheet">
     <title>Document</title>
+    <link rel="shortcut icon" type="image/png" href="{{asset('img/logo.png')}}"/>
 </head>
     <style>@font-face {
  font-family:Futural;
@@ -117,6 +118,7 @@
           </div>
     </div>
     
+
     <footer class="text-gray-50 body-font  bg-black">
   <div
     class="
@@ -131,29 +133,17 @@
       flex-wrap flex-col
     "
   >
-    <div
+    <!-- <div
       class="w-64 pl-10 flex-shrink-0 md:mx-0 mx-auto text-center md:text-left"
-    >
-      <a
-        href=""
-        class="
-          flex
-          title-font
-          font-medium
-          items-center
-          md:justify-start
-          justify-center 
-          text-gray-100
-        "
-      >
-      <img class="h-2/4 w-1/2" src="{{asset('img/logofull.png')}}" alt="">
-        
-      </a>
-      <p class="mt-2 text-sm text-white">
-        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Modi,
-        quam?
-      </p>
-    </div>
+    > -->
+      
+      <div class="sm:w-1/5 w-auto flex flex-col  p-4 px-2 justify-center items-center rounded-lg">
+      <img class="h-3/4 w-2/3" src="{{asset('img/logofull.png')}}" alt="">
+      <img class="h-3/4 w-2/3 mt-10" src="{{asset('img/partner1.png')}} " alt="">
+      </div>  
+     
+     
+    <!-- </div> -->
     <div
       class="
         flex-grow flex flex-wrap
@@ -186,7 +176,7 @@
               >Noufeelen, Tripoli, Libya</h1
             >
             <a href="https://goo.gl/maps/A31Toqe7j8GUHKNi7" class="text-red-500 hover:text-red-800"
-              >Google maps pin</a
+              >Google Maps Location</a
             >
           </li>
           
@@ -216,7 +206,7 @@ M5 3EB <br>
 United Kingdom <br> </a
             >
             <a href="https://maps.app.goo.gl/8a8q55esXuEgGQvy7" class="text-red-500 hover:text-red-800"
-              >Google maps pins
+              >Google Maps Locations
             </a>
           
         </nav>
@@ -243,7 +233,7 @@ United Kingdom <br> </a
           </li>
           <li>
             <h1 class="text-gray-50 "
-              >Libya Office Phone number: <br>
+              >Libya Office Phone Number: <br>
 +218 91 0000 000</h1
             >
           </li>
@@ -293,16 +283,18 @@ United Kingdom <br> </a
       <p class="text-white text-sm text-center sm:text-left">
         © 2021 Copyright
         <a
-          href="https://www.tailwind-elements.com/"
-          class="text-gray-50 ml-1"
+          href="https://shift.com.ly/"
+          class="text-gray-50 ml-1 hover:text-black"
           target="_blank"
-          ></a
+          >Powered by Shift Co.
+          </a
         >
       </p>
      
     </div>
   </div>
-</footer>
+</footer> <h1 class="fixed right-24 bottom-8 bg-white bg-opacity-30 p-2 rounded-lg text-black-600">Chat with us now</h1>
+
 <script id="ze-snippet" src="https://static.zdassets.com/ekr/snippet.js?key=165f9822-9c14-4f93-97b5-8d71f795a07f"> </script>
 <script src="https://kit.fontawesome.com/69393ee716.js" crossorigin="anonymous"></script>
 </body>
