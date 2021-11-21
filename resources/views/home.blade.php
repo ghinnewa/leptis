@@ -145,7 +145,7 @@
                 </div>
           </div>
   </div><div class="absolute bottom-0 w-full"><div class="arrow bounce w-full flex justify-center items-center ">
-  <a class="fa fa-chevron-down fa-3x text-white" href="#about"></a>
+  <a class="fa fa-chevron-down fa-3x sm:visible invisible text-white " href="#about"></a>
 </div></div> 
  
   <!-- Next and previous buttons -->
@@ -255,25 +255,27 @@ We are committed to fostering the professional and personal growth of all studen
      <div class="flex  flex-col sm:flex-row sm:p-16 p-6  border-blue-400">
        <div class="justify-between flex flex-col sm:w-1/4 p-4 m-4 shadow-xl bg-white rounded-2xl  border-red-400 hover:shadow-2xl">
        <img src="{{asset('img/partner1.png')}} " alt="" class=" py-10">
-       <a href=""  class=" 
+       <a href="https://www.imeche.org/
+"  class=" 
   bg-red-500   text-white  hover:bg-red-700  active:bg-purple-600   font-bold
    w-full    text-center   uppercase   text-xs   px-4   py-2   rounded   shadow   hover:shadow-md   outline-none   focus:outline-none   mr-1   mb-1   ease-linear   transition-all   duration-150 ">learn more</a>
        </div>
        <div class="flex flex-col sm:w-1/4 p-4 m-4 shadow-xl bg-white rounded-2xl justify-between  border-red-400 hover:shadow-2xl">
        <img src="{{asset('img/partner2.png')}}" alt="" class="py-10">
-       <a href=""  class="
+       <a href="https://www.icorr.org/
+"  class="
   bg-red-500   text-white  hover:bg-red-700  active:bg-purple-600   font-bold
    w-full    text-center   uppercase   text-xs   px-4   py-2   rounded   shadow   hover:shadow-md   outline-none   focus:outline-none   mr-1   mb-1   ease-linear   transition-all   duration-150 ">learn more</a>
        </div>
        <div class="flex flex-col sm:w-1/4 p-4 m-4 shadow-xl bg-white rounded-2xl justify-between  border-red-400 hover:shadow-2xl">
        <img src="{{asset('img/partner3.png')}}" alt="" class="py-10">
-       <a href=""  class="
+       <a href=" https://www.icats-training.org"  class="
   bg-red-500   text-white  hover:bg-red-700  active:bg-purple-600   font-bold
    w-full    text-center   uppercase   text-xs   px-4   py-2   rounded   shadow   hover:shadow-md   outline-none   focus:outline-none   mr-1   mb-1   ease-linear   transition-all   duration-150 ">learn more</a>
        </div>
        <div class="flex flex-col sm:w-1/4 p-4 m-4 shadow-xl bg-white rounded-2xl justify-center  border-red-400 hover:shadow-2xl">
        <img src="{{asset('img/partner4.png')}}" alt="" class=" py-5">
-       <a href=""  class="
+       <a href=" https://www.bindt.org/"  class="
   bg-red-500   text-white  hover:bg-red-700  active:bg-purple-600   font-bold
    w-full    text-center   uppercase   text-xs   px-4   py-2   rounded   shadow   hover:shadow-md   outline-none   focus:outline-none   mr-1   mb-1   ease-linear   transition-all   duration-150 ">learn more</a>
        </div>
