@@ -97,7 +97,7 @@
  
     <div class="numbertext">1 / 3</div>
     
-    <div class="w-auto min-h-screen " style="background-image: url('{{ asset('img/home.png')}}');  background-position:center ; background-repeat: no-repeat;
+    <div class="w-auto min-h-screen " style="background-image: url('{{ asset('img/corrosion.png')}}');  background-position:center ; background-repeat: no-repeat;
   background-size: cover;" id="home">
               <div class="flex-col-reverse  sm:flex-row   flex items-center justify-center lite sm:w-auto sm:h-screen p-0 m-0  bg-gradient-to-b from-black  to-transparent ">   
                   <div id="text" class="text-white w-auto sm:w-5/12 mr-18 sm:pt-10 pt:4 flex flex-col justify-center items-center sm:items-start sm:flex" >
@@ -114,7 +114,7 @@
 
   <div class="mySlides fade">
     <div class="numbertext">2 / 3</div>
-    <div class="w-auto min-h-screen " style="background-image: url('{{ asset('img/ndt.png')}}');  background-position:center ; background-repeat: no-repeat;
+    <div class="w-auto min-h-screen " style="background-image: url('{{ asset('img/home.png')}}');  background-position:center ; background-repeat: no-repeat;
   background-size: cover;" id="home">
               <div class="flex-col-reverse  sm:flex-row   flex items-center justify-center lite sm:w-auto sm:h-screen p-0 m-0  bg-gradient-to-b from-black  to-transparent ">   
                   <div id="text" class="text-white w-auto sm:w-5/12 mr-18 sm:pt-10 pt:4 flex flex-col justify-center items-center sm:items-start sm:flex" >
@@ -131,7 +131,7 @@
 
   <div class="mySlides fade">
     <div class="numbertext">3 / 3</div>
-    <div class="w-auto min-h-screen " style="background-image: url('{{ asset('img/corrosion.png')}}');  background-position:center ; background-repeat: no-repeat;
+    <div class="w-auto min-h-screen " style="background-image: url('{{ asset('img/ndt.png')}}');  background-position:center ; background-repeat: no-repeat;
   background-size: cover;" id="home">
               <div class="flex-col-reverse  sm:flex-row   flex items-center justify-center lite sm:w-auto sm:h-screen p-0 m-0  bg-gradient-to-b from-black  to-transparent ">   
                   <div id="text" class="text-white w-auto sm:w-5/12 mr-18 sm:pt-10 pt:4 flex flex-col justify-center items-center sm:items-start sm:flex" >
@@ -645,7 +645,7 @@ function showSlides() {
   slideIndex++;
   if (slideIndex > slides.length) {slideIndex = 1}
   slides[slideIndex-1].style.display = "block";
-  setTimeout(showSlides, 5000); // Change image every 2 seconds
+  setTimeout(showSlides, 4000); // Change image every 2 seconds
 }</script> 
 </body>
 </html>
