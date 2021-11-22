@@ -24,13 +24,12 @@ class Mailcontroller extends Controller
    
         Mail::send('email',['details'=>$details], function ($message)use($details) {
             $message->subject('liptis');
-            $message->to('hajer.ghinnewah@gmail.com');
+            $message->to('support@leptistraining.zendesk.com');
             $message->attach($details['file'],
             [
                 'as' => $details['file']->getClientOriginalName(),
                 'mime' =>$details['file']->getClientMimeType(),
-            ]);
-            
+            ]);  
         });
         // Mail::to('hajer.ghinnewah@gmail.com')->send(new testmail($details));
         return (redirect()->back());
