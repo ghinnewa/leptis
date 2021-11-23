@@ -202,7 +202,7 @@
                     
                    
                     
-                   <div class="sm:w-full py-2  m-2 bg-white sm:p-6 rounded-xl p-6 backdrop-filter backdrop-blur-sm shadow-xl    border-red-400" > 
+                   <div class="sm:w-full py-2  m-4 bg-white sm:p-6 rounded-xl p-6 backdrop-filter backdrop-blur-sm shadow-xl    border-red-400" > 
                      <h1 class="text-2xl text-red-500 font-bold">
                    <i class="fas fa-gem"></i>   Values 
                      </h1> 
