@@ -177,67 +177,80 @@
 
           As an organisation we recognise the importance of developing our services to meet the constantly evolving needs of our customers. <br>
 
-                 <div class="mx-6 flex flex-col  sm:flex-row flex-wrap ">
-                   <div class="sm:w-1/2 py-2 sm:px-4    border-red-400" > 
-                     <h1 class="text-xl text-red-500 font-bold">
-                     Vision:
+                 <div class="mx-6 flex flex-col sm:flex-row flex-wrap ">
+                   <div class="sm:w-1/2">
+                   <div class="sm:w-auto py-2 sm:p-6 m-1 rounded-xl  backdrop-filter backdrop-blur-sm shadow-xl    border-red-400" > 
+                     <h1 class="text-2xl text-red-500 font-bold">
+                   <i class="fas fa-eye"></i>   Vision 
                      </h1> 
                      <p>Our vision is to transform the continuous learning experience in a rapidly advancing world, identifying and addressing critical issues related to the education of professionals, and using technology to broaden and support learning opportunities.
                      </p>
-                    </div>
-                   <div class="sm:w-1/2 py-2 sm:px-4   border-red-400" > 
-                     <h1 class="text-xl text-red-500 font-bold">
-                     Mission Statement: 
+                    </div></div>
+                    <div class="sm:w-1/2">
+                   <div class="sm:w-auto py-2 sm:p-6 m-1 rounded-xl  backdrop-filter backdrop-blur-sm shadow-xl   border-red-400" > 
+                     <h1 class="text-2xl text-red-500 font-bold">
+                     <i class="fas fa-bullseye"></i> Mission Statement
                      </h1> 
                      <p>We fulfill our mission by preparing competent, committed , and reflective professionals as we engage in outstanding, innovative<br> And impactful teaching, and meaningful outreach.
-                     </p>
-                    </div>
-                   <div class="sm:w-1/2 py-2 sm:px-4    border-red-400" > 
-                     <h1 class="text-xl text-red-500 font-bold">
-                     Student Focus:
-                     </h1> 
-                     <p>
-
-We are committed to fostering the professional and personal growth of all students and our fellow colleagues by promoting lifelong learning and leadership development. 
-
-
-</p>
-                    </div>
+                     </p><br>
+                    </div></div>
+                  
                     
-                   <div class="sm:w-1/2 py-2 sm:px-4   border-red-400" > 
-                     <h1 class="text-xl text-red-500 font-bold" >
-                     Excellence
-                     </h1> 
-                     <p>We strive for excellence in all our teaching practices. We commit to continuous self-improvement to achieve excellence in all our endeavors
-
-                     </p>
-                    </div>
+                  
                     
-                   <div class="sm:w-1/2 py-2 sm:px-4   border-red-400" > 
-                     <h1 class="text-xl text-red-500 font-bold">
-                     Integrity
-                     </h1> 
-                     <p>We’re honest, transparent, accountable, and committed to doing what’s best for our students and our society. 
-
-                     </p>
-                    </div>
+                  
                     
-                   <div class="sm:w-1/2 py-2 sm:px-4   border-red-400" > 
-                     <h1 class="text-xl text-red-500 font-bold">
-                     Innovation
-                     </h1> 
-                     <p>We are committed to innovation in our teaching, and outreach to our communities.
-
-                     </p>
-                    </div>
+                   
                     
-                   <div class="sm:w-1/2 py-2 sm:px-4   border-red-400" > 
-                     <h1 class="text-xl text-red-500 font-bold">
-                     Values:
+                   <div class="sm:w-full py-2 m-1  sm:p-6 rounded-xl p-6 backdrop-filter backdrop-blur-sm shadow-xl    border-red-400" > 
+                     <h1 class="text-2xl text-red-500 font-bold">
+                   <i class="fas fa-gem"></i>   Values 
                      </h1> 
                     
                      <p>Our values drive our decisions and activities.
                      </p>
+                     <br>
+                     <div class="flex flex-col sm:flex-row flex-wrap">
+                      <div class="sm:w-1/2 py-2 sm:px-4   border-red-400" > 
+                     <h1 class="text-base text-black font-bold">
+                     <i class="fas fa-gem"></i>
+                     Innovation :<span class="font-normal">We are committed to innovation in our teaching, and outreach to our communities.
+
+</span>
+                     </h1> 
+                    
+                    </div>
+                     <div class="sm:w-1/2 py-2 sm:px-4  border-red-400" > 
+                     <h1 class="text-base text-black font-bold">
+                     <i class="fas fa-gem"></i>
+                     Integrity :<span class="font-normal ">We’re honest, transparent, accountable, and committed to doing what’s best for our students and our society. 
+
+                     </span>
+                     </h1> 
+                     
+                    </div>
+                     <div class="sm:w-1/2 py-2 sm:px-4   border-red-400" > 
+                     <h1 class="text-base text-black font-bold" ><i class="fas fa-gem"></i>
+                     Excellence :<span class="font-normal ">We strive for excellence in all our teaching practices. We commit to continuous self-improvement to achieve excellence in all our endeavors
+
+</span>
+                     </h1> 
+                     
+                    </div>
+                     <div class="sm:w-1/2 py-2 sm:px-4    border-red-400" > 
+                     <h1 class="text-base text-black font-bold">
+                     <i class="fas fa-gem"></i>
+                     Student Focus :
+                     <span class="font-normal text-base">
+
+We are committed to fostering the professional and personal growth of all students and our fellow colleagues by promoting lifelong learning and leadership development. 
+
+
+</span>
+                     </h1> 
+                     
+                    </div>
+</div>
                     </div>
                     
                  </div>
@@ -256,26 +269,26 @@ We are committed to fostering the professional and personal growth of all studen
        <div class="justify-between flex flex-col sm:w-1/4 p-4 m-4 shadow-xl bg-white rounded-2xl  border-red-400 hover:shadow-2xl">
        <img src="{{asset('img/partner1.png')}} " alt="" class=" py-10">
        <a href="https://www.imeche.org/
-"  class=" 
+" target="_blank" class=" 
   bg-red-500   text-white  hover:bg-red-700  active:bg-purple-600   font-bold
    w-full    text-center   uppercase   text-xs   px-4   py-2   rounded   shadow   hover:shadow-md   outline-none   focus:outline-none   mr-1   mb-1   ease-linear   transition-all   duration-150 ">learn more</a>
        </div>
        <div class="flex flex-col sm:w-1/4 p-4 m-4 shadow-xl bg-white rounded-2xl justify-between  border-red-400 hover:shadow-2xl">
        <img src="{{asset('img/partner2.png')}}" alt="" class="py-10">
        <a href="https://www.icorr.org/
-"  class="
+" target="_blank" class="
   bg-red-500   text-white  hover:bg-red-700  active:bg-purple-600   font-bold
    w-full    text-center   uppercase   text-xs   px-4   py-2   rounded   shadow   hover:shadow-md   outline-none   focus:outline-none   mr-1   mb-1   ease-linear   transition-all   duration-150 ">learn more</a>
        </div>
        <div class="flex flex-col sm:w-1/4 p-4 m-4 shadow-xl bg-white rounded-2xl justify-between  border-red-400 hover:shadow-2xl">
        <img src="{{asset('img/partner3.png')}}" alt="" class="py-10">
-       <a href=" https://www.icats-training.org"  class="
+       <a href=" https://www.icats-training.org" target="_blank" class="
   bg-red-500   text-white  hover:bg-red-700  active:bg-purple-600   font-bold
    w-full    text-center   uppercase   text-xs   px-4   py-2   rounded   shadow   hover:shadow-md   outline-none   focus:outline-none   mr-1   mb-1   ease-linear   transition-all   duration-150 ">learn more</a>
        </div>
        <div class="flex flex-col sm:w-1/4 p-4 m-4 shadow-xl bg-white rounded-2xl justify-center  border-red-400 hover:shadow-2xl">
        <img src="{{asset('img/partner4.png')}}" alt="" class=" py-5">
-       <a href=" https://www.bindt.org/"  class="
+       <a href=" https://www.bindt.org/" target="_blank" class="
   bg-red-500   text-white  hover:bg-red-700  active:bg-purple-600   font-bold
    w-full    text-center   uppercase   text-xs   px-4   py-2   rounded   shadow   hover:shadow-md   outline-none   focus:outline-none   mr-1   mb-1   ease-linear   transition-all   duration-150 ">learn more</a>
        </div>
@@ -320,10 +333,9 @@ We are committed to fostering the professional and personal growth of all studen
   />
 
   <div class="p-4 bg-white">
-    <h5 class="text-xl font-semibold mb-2">Coating &Corrosion Training</h5>
+    <h5 class="text-xl font-semibold mb-2">Coating & Corrosion Training</h5>
 
-    <p class="mb-4">
-    Nondestructive testing (NDT) is any of a wide group of analysis techniques used in science and technology industry to evaluate the properties of a material
+    <p class="mb-4">This courses are mainly targeted at inspectors and corrosion specialists who are looking for specialised qualifications to progress their career development. 
     </p>
 
     <a href="/CC"
@@ -475,7 +487,7 @@ We are committed to fostering the professional and personal growth of all studen
       
       <div class="sm:w-1/5 w-auto flex flex-col  p-4 px-2 justify-center items-center rounded-lg">
       <img class="h-3/4 w-2/3" src="{{asset('img/logofull.png')}}" alt="">
-      <img class="h-3/4 w-2/3 mt-10" src="{{asset('img/partner1.png')}} " alt="">
+      <img class="h-3/4 w-2/3 mt-10" src="{{asset('img/footer.png')}} " alt="">
       </div>  
      
      
@@ -631,7 +643,7 @@ United Kingdom <br> </a
   </div>
 </footer>
    </div>
-   <h1 class="fixed right-24 bottom-8 bg-white bg-opacity-30 p-2 rounded-lg text-black-600">Chat with us now</h1>
+   
    <script id="ze-snippet" src="https://static.zdassets.com/ekr/snippet.js?key=165f9822-9c14-4f93-97b5-8d71f795a07f"> </script><!-- End of leptistraining Zendesk Widget script -->
 <script>var slideIndex = 0;
 showSlides();

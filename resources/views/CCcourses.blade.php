@@ -152,7 +152,7 @@
       
       <div class="sm:w-1/5 w-auto flex flex-col  p-4 px-2 justify-center items-center rounded-lg">
       <img class="h-3/4 w-2/3" src="{{asset('img/logofull.png')}}" alt="">
-      <img class="h-3/4 w-2/3 mt-10" src="{{asset('img/partner1.png')}} " alt="">
+      <img class="h-3/4 w-2/3 mt-10" src="{{asset('img/footer.png')}} " alt="">
       </div>  
      
      

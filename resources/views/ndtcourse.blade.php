@@ -21,54 +21,8 @@
 <body style="font-family:futural  " class="bg-gray-100">
 
 <!-- This example requires Tailwind CSS v2.0+ -->
-<nav class="bg-white z-10 w-full invisible sm:visible p-0 m-0  shadow-md">
-  <div class="max-w-7xl mx-auto  sm:px-6 lg:px-8">
-    <div class="relative  flex  items-center  h-16">
-      <div class="absolute inset-y-0 left-0 flex  items-center sm:hidden">
-        <!-- Mobile menu button-->
-       
-          <!--
-            Icon when menu is open.
 
-            Heroicon name: outline/x
 
-            Menu open: "block", Menu closed: "hidden"
-          -->
-       
-         
-      </div>
-      <div class="border-white border-2 flex-1 flex items-center invisible sm:visible justify-between">
-        <div class="flex-shrink-0 flex items-center">
-          <!-- <img class="block lg:hidden h-8 w-auto" src="{{asset('img/logofull.png')}}" alt=""> -->
-          <img class="hidden lg:block h-12 w-auto" src="{{asset('img/logofull.png')}}" alt="Workflow">
-        </div>
-        <div class="hidden  sm:block sm:ml-6 ">
-          <div class="flex  space-x-4 ">
-            <!-- Current: "bg-gray-900 text-white", Default: "text-gray-300 hover:bg-gray-700 hover:text-white" -->
-            <a href="/#" class=" hover:text-red-600 px-3 py-2 rounded-md text-sm font-medium" aria-current="page">HOME</a>
-
-            <a href="/#about" class="hover:text-red-600 px-3 py-2 rounded-md text-sm font-medium">ABOUT</a>
-
-            <a href="/#partners" class="hover:text-red-600 px-3 py-2 rounded-md text-sm font-medium">PARTNERS</a>
-
-            <a href="/#courses" class="hover:text-red-600 px-3 py-2 rounded-md text-sm font-medium">COURSES</a>
-            <a href="/#contact" class="hover:text-red-600 px-3 py-2 rounded-md text-sm font-medium">CONTACT</a>
-            <a href="/#footer" class="hover:text-red-600 px-3 py-2 rounded-md text-sm font-medium">OPENING</a>
-          </div>
-        </div>
-      </div>
-      
-        
-
-        <!-- Profile dropdown -->
-        
-      </div>
-    </div>
-  </div>
-
-  <!-- Mobile menu, show/hide based on menu state. -->
- 
-          </nav>
           
           <div class=" sm:pt-10">
     <!-- component -->
@@ -219,7 +173,7 @@ class="btn cancel  right-0 " onclick="closeForm() "><i class="fas fa-times"></i>
       
       <div class="sm:w-1/5 w-auto flex flex-col  p-4 px-2 justify-center items-center rounded-lg">
       <img class="h-3/4 w-2/3" src="{{asset('img/logofull.png')}}" alt="">
-      <img class="h-3/4 w-2/3 mt-10" src="{{asset('img/partner1.png')}} " alt="">
+      <img class="h-3/4 w-2/3 mt-10" src="{{asset('img/footer.png')}} " alt="">
       </div>  
      
      
