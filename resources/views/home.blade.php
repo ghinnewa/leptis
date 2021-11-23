@@ -179,7 +179,7 @@
 
                  <div class="mx-6 flex flex-col sm:flex-row flex-wrap ">
                    <div class="sm:w-1/2">
-                   <div class="sm:w-auto py-2 bg-white sm:p-6 m-2 rounded-xl  backdrop-filter backdrop-blur-sm shadow-xl    border-red-400" > 
+                   <div style="padding: 1.5rem ;margin: 0.5rem;" class="sm:w-auto py-2 bg-white sm:p-6 m-2 rounded-xl  backdrop-filter backdrop-blur-sm shadow-xl    border-red-400" > 
                      <h1 class="text-2xl text-red-500 font-bold">
                    <i class="fas fa-eye"></i>   Vision 
                      </h1> 
@@ -187,7 +187,7 @@
                      </p>
                     </div></div>
                     <div class="sm:w-1/2">
-                   <div class="sm:w-auto py-2 bg-white sm:p-6 m-2 rounded-xl  backdrop-filter backdrop-blur-sm shadow-xl   border-red-400" > 
+                   <div style="padding: 1.5rem ;margin: 0.5em;" class="sm:w-auto py-2 bg-white sm:p-6 m-2 rounded-xl  backdrop-filter backdrop-blur-sm shadow-xl   border-red-400" > 
                      <h1 class="text-2xl text-red-500 font-bold">
                      <i class="fas fa-bullseye"></i> Mission Statement
                      </h1> 
