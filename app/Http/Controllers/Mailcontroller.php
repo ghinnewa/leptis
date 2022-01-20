@@ -19,7 +19,7 @@ class Mailcontroller extends Controller
             'position'=>$data->position,
             'companyname'=>$data->companyname,
             'content'=>$data->course,
-            'file'=>$data->file('file')
+            'file'=>$data->file('file')->nullable
         ];
    
         Mail::send('email',['details'=>$details], function ($message)use($details) {

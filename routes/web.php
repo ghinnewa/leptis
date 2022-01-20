@@ -31,9 +31,9 @@ Route::get('/CCcourses/{topic}', [TopicController::class,'courses'])->name('CCco
 Route::get('/ndtcourse/{course}', [TopicController::class,'course'])->name('ndtcourse');
 Route::get('/CCcourse/{course}', [TopicController::class,'course'])->name('ndtcourse');
 // Route::get('/ndt', [::class,'index']);
-// Route::get('/', function () {
-//     return view('welcome');
-// });
+Route::get('/', function () {
+    return view('welcome');
+});
 
 Route::get('/dashboard',  [TopicController::class,'indexdash'])->middleware(['auth'])->name('dashboard');
 Route::get('/delete/{course}',  [TopicController::class,'delete'])->middleware(['auth'])->name('delete');
